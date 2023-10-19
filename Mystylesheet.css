@@ -1,0 +1,235 @@
+
+/* Style sheet starts here */
+
+/* ID "title" is used to identify the HTML and styling is provided accordingly */
+
+#title {
+	 text-align: center;                   /* default alignent is changed */
+     font-size: 40px;                                 /* font size is overridden */
+     font-style: normal;
+     font-family: Georgia;
+} 
+
+/* styling for the above ID ends here */
+
+/* all major headings are considered as "h2" and stying is provided accordingly */
+
+h2 {
+    background-color: lightgray;
+    color: brown;                          /* default color is changed */
+    font-size: 40px;                                 /* font size is overridden */
+    font-size: 30px;
+    font-style: italic;
+    border-style: outset;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* styling for all major headings ends here */
+
+/* this is the class value given to navbar which takes to the next page and previous page of the website */
+
+.bar1{
+    font-size: 20px;                                           /* font size is overridden */
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* navbar styling ends here */
+
+/* this is the styling section for frist paragraph of the website "p1" */
+
+.p1{
+    background-color: lightblue;                /* default color is changed */
+    font-size: 22px;                                                /* font size is overridden */
+    font-weight: 100;
+    border-style: dotted;
+    border-color: darkblue;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* p1 styling ends here */
+
+/* this is the styling section for second paragraph of the website "p2" */
+
+.p2{
+    background-color: lightblue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: lighter;
+    border-style: dotted;
+    border-color: chocolate;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p2 styling ends here */
+
+/* this is the styling section for table of the website */
+
+table {  
+    width: 70%;                                 /* default width of the table changed */
+    border: 2px;
+    border-style: groove;
+    border-radius: 15px;
+    border-color:black;
+    background-color: lightblue;
+    font-size: 25px;                                                        /* font size is overridden */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+th {
+    border: 1px;
+    border-style: groove;
+    border-color: green;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;                                                        /* font size is overridden */
+    font-style: italic;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* table styling ends here */
+
+/* this is the styling section for fourth paragraph of the website "p4" */
+
+.p4 {
+    background-color: lightblue;
+    font-size: 22px;                                             /* font size is overridden */
+    font-style: normal;
+    border-style: dotted;
+    border-color: brown;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p4 styling ends here */
+
+/* this is the styling section for fifth paragraph of the website "p5" */
+
+.p5 {
+    background-color: lightblue;
+    font-size: 22px;                           /* default font size is changed */           
+    border-style: dotted; 
+    border-color: lightslategray;
+    border-radius: 10px;                        /* border radius overridden */
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p5 styling ends here */
+
+/* this is the styling section for fifth paragraph of the website "p6" */
+
+.p6 {
+    background-color: lightblue; 
+    font-size: 22px;                                    /* default font size is changed */    
+    font-weight: bold;
+    border-style: dotted;
+    border-color: lightcoral;
+    border-radius: 10px;                                        /* border radius overridden */
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p6 styling ends here */
+
+/* this is the styling section for fifth paragraph of the website "p7" */
+
+.p7 {
+    background-color: lightblue;     
+    font-size: 22px;                         /* default font size is changed */      
+    font-weight: bold;
+    border-style: dotted;
+    border-color: lightsalmon;
+    border-radius: 10px;                       /* border radius overridden */
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p7 styling ends here */
+
+/* this is the styling section for links paragraph "a" */
+
+.a{                            
+    font-size: 22px;                                      
+    font-style: italic;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* "a" styling ends here */
+
+/* unopened link */
+a:link {
+    color: green
+  }
+  
+  /* opened link */
+  a:visited {
+    color: blue;
+  }
+  
+  /* hover on link */
+  a:hover {
+    color: red;
+  }
+  
+  /* link selected */
+  a:active {
+    color: yellow;
+  }
+
+
+/* the styling section for foe links ends here */
+
+/* this is the styling section for fifth paragraph of the website "p9" */
+
+.p9{
+    background-color: lightblue;                                  /* default background color is changed */
+    font-size: 22px;                                             /* default font style is changed */
+    font-weight: bold;
+    border-style: dotted;
+    border-color: lightseagreen;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* p9 styling ends here */
+
+/* this is the styling section for fifth paragraph of the website "p10" */
+
+.p10{                                 
+    font-size: 24px;                                        /* default font style is changed */  
+    font-weight: bold;
+    text-align: center;                                      /* default text alignment is changed */
+    color: brown;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* p10 styling ends here */
+
+
